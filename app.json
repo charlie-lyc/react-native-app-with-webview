@@ -2,6 +2,11 @@
   "expo": {
     "name": "aotomon-mobile-app",
     "slug": "aotomon-mobile-app",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "extra": {
+      "eas": {
+        "projectId": "d13ba6b8-8c95-48bd-88a6-2108f8de3fcd"
+      }
+    }
   }
 }

@@ -40,7 +40,7 @@ const Webview = ({ navigation }) => {
       <WebView
         ref={ref}
         style={styles.webview}
-        source={{ uri: 'https://naver.com' }}
+        source={{ uri: 'https://navver.com' }}
         onNavigationStateChange={e => setNavState(e)}
         startInLoadingState={true}
         renderError={(errorName) => (

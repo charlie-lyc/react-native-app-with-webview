@@ -15,7 +15,7 @@ const Webview = () => {
     const backAction = () => {
         if (!isExitApp) {
             isExitApp = true;
-            ToastAndroid.show('뒤로가기 버튼을 한번 더 누르시면 종료됩니다.', ToastAndroid.SHORT);
+            ToastAndroid.show("'뒤로' 버튼을 한번 더 누르면 종료됩니다.", ToastAndroid.SHORT);
             timeout = setTimeout(() => isExitApp = false, 2000);
         } else {
             clearTimeout(timeout);
