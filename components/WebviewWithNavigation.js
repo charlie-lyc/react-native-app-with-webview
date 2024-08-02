@@ -3,6 +3,7 @@ import { SafeAreaView, StyleSheet, Dimensions, Text, BackHandler } from 'react-n
 import { WebView } from 'react-native-webview';
 import { HeaderBackButton } from '@react-navigation/elements';
 
+
 const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;
 
@@ -40,7 +41,7 @@ const Webview = ({ navigation }) => {
       <WebView
         ref={ref}
         style={styles.webview}
-        source={{ uri: 'https://navver.com' }}
+        source={{ uri: 'https://naver.com' }}
         onNavigationStateChange={e => setNavState(e)}
         startInLoadingState={true}
         renderError={(errorName) => (

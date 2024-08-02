@@ -1,4 +1,4 @@
-package com.aotomonmobileapp
+package com.aotomon.app
 
 import android.app.Application
 import android.content.res.Configuration

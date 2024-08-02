@@ -6,7 +6,9 @@
 2. Android Studio 설치 환경
    - Microsoft Build of OpenJDK 17
 
-3. Android AVD, Emulator 개발 환경(on Windows)
+3. Android 개발 환경(AVD, Emulator on Windows)
+   - Android Gradle Plugin 8.2.1
    - Android SDK Platform 34
    - Android SDK Build-Tools 34
-   - Android gradle plugin: 8.2.1
+   - compileSdkVersion 34
+   - targetSdkVersion 34

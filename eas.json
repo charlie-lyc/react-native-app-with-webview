@@ -10,7 +10,21 @@
     "preview": {
       "distribution": "internal"
     },
-    "production": {}
+    "production": {
+      "android": {
+        "buildType": "app-bundle",
+        "credentialsSource": "local",
+        "gradleCommand": ":app:bundleRelease",
+        "env": {
+          "EXPO_ANDROID_KEYSTORE_PATH": "$EXPO_ANDROID_KEYSTORE_PATH",
+          "EXPO_ANDROID_KEYSTORE_PASSWORD": "$EXPO_ANDROID_KEYSTORE_PASSWORD",
+          "EXPO_ANDROID_KEY_ALIAS": "$EXPO_ANDROID_KEY_ALIAS",
+          "EXPO_ANDROID_KEY_PASSWORD": "$EXPO_ANDROID_KEY_PASSWORD"
+        }
+      }
+
+    }
+    
   },
   "submit": {
     "production": {}

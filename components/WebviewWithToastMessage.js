@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { SafeAreaView, StyleSheet, Dimensions, Text, BackHandler, ToastAndroid } from 'react-native';
 import { WebView } from 'react-native-webview';
-// import { HeaderBackButton } from '@react-navigation/elements';
+
 
 const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;
@@ -19,7 +19,7 @@ const Webview = () => {
             timeout = setTimeout(() => isExitApp = false, 2000);
         } else {
             clearTimeout(timeout);
-            // 앱 종료
+            // 앱에서 바탕화면으로 나가기
             BackHandler.exitApp();
         }
         return true;

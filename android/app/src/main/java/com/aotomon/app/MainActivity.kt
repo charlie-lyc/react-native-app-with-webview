@@ -1,4 +1,4 @@
-package com.aotomonmobileapp
+package com.aotomon.app
 
 import android.os.Build
 import android.os.Bundle
